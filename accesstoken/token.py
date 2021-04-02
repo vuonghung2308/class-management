@@ -2,7 +2,7 @@ from dataclasses import asdict
 from entity.Account import *
 import jwt
 
-SECRET_KEY = "secret"
+SECRET_KEY = "0oRNvlDf9Aw1Q6rBiLYvdRx7QHCiyd7z"
 ALGORITHM = "HS256"
 
 def get_token(acc):
